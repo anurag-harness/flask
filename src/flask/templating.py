@@ -22,7 +22,7 @@ if t.TYPE_CHECKING:  # pragma: no cover
 
 
 def _default_template_ctx_processor() -> dict[str, t.Any]:
-    """Default template context processor.  Injects `request`,
+    """Default template context pro cessor.  Injects `request`,
     `session` and `g`.
     """
     appctx = _cv_app.get(None)
