@@ -11,7 +11,7 @@ from .sansio.blueprints import Blueprint as SansioBlueprint
 from .sansio.blueprints import BlueprintSetupState as BlueprintSetupState  # noqa
 from .sansio.scaffold import _sentinel
 
-if t.TYPE_CHECKING:  # pragma: no cover
+if t.TYPE_CHECKING:  # pragma: no cover  
     from .wrappers import Response
 
 
